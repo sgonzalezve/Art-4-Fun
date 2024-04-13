@@ -1,0 +1,11 @@
+usethis::use_package("devtools")
+usethis::use_package("dplyr")
+usethis::use_package("ggplot2")
+usethis::use_package("Rcpp")
+usethis::use_package("tidyr")
+usethis::use_package("gganimate")
+usethis::use_package("ambient")
+usethis::use_package("purrr")
+
+usethis::use_r("create-image")
+devtools::load_all()
