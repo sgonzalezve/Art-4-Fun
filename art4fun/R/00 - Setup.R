@@ -6,6 +6,5 @@ usethis::use_package("tidyr")
 usethis::use_package("gganimate")
 usethis::use_package("ambient")
 usethis::use_package("purrr")
-
-usethis::use_r("create-image")
+usethis::use_r("utils_fun")
 devtools::load_all()
